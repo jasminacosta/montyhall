@@ -1,0 +1,26 @@
+Package: montyhall
+Title: Monty Hall Functions Package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jasmin", "Acosta","", "jasminbethany1234@gmail.com", 
+    role = c("aut", "cre"),
+           )
+Description: This Monty Hall package simplifies the ability to run the monty 
+    hall problem by having a number of different functions for each step of the 
+    game. These functions within the package make it easier to be able to play the 
+    game where the player has to make a choice between three different doors two 
+    of which have goats behind them, and one door has a car behind it. While the door 
+    with the car behind it is the goal in order to win the game. This package makes 
+    it easier to play the game and changes could be made as desired to make a new 
+    set of rules. For example, the number of doors can be adjusted to have a 
+    different amount of goats and cars behind the doors. These functions are the 
+    set up for every step within the game and can be adjusted to create your own 
+    game based on the Monty Hall problem!
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+
